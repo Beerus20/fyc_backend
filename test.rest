@@ -1,0 +1,12 @@
+GET http://localhost:3001/api/villas
+
+###
+POST http://localhost:3001/api/villas
+Content-Type: application/json
+
+{
+    "nom": "Second Villa",
+    "description": "Balbalbalblablablalbalbalba",
+    "lieux": "44 new york street",
+    "prix": 440
+}
